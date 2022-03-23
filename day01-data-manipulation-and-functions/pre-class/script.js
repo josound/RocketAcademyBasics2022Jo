@@ -5,7 +5,7 @@ var main = function (input) {
 
 var greetingMain = function (input) {
   // Attempt the Greeting Program exercise from the Our First Program module below with greetingMain as the main function.
-  var myOutputValue = 'hello world';
+  var myOutputValue = 'testtttt world';
   return myOutputValue;
 };
 
