@@ -4,7 +4,7 @@ var emojiNumberCharactersMain = function (input) {
   while (counter < input) {
     counter = counter + 1;
     msg = msg + "👍";
-    console.log(msg);
+    console.log(counter);
   }
   return msg;
 };
@@ -64,9 +64,9 @@ var emojiOutlineSquareMain = function (input) {
       // If current iteration represents a border element, draw ✊ instead.
       if (
         outerCounter == 0 ||
-        outerCounter == sideLength - 1 ||
+        outerCounter == sideLength + 1 ||
         innerCounter == 0 || //
-        innerCounter == sideLength - 1
+        innerCounter == sideLength + 1
       ) {
         myOutputValue += "✊";
       } else {
